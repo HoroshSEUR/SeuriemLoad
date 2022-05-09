@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Seuriem</title>
+<link rel="icon" type="image/png" href="../res/icon.png">
+<link href="../res/bootstrap-panel.css" rel="stylesheet" type="text/css">
+<link href="../res/animate.css" rel="stylesheet" type="text/css">
+<link href="../res/nanoscroller.css" rel="stylesheet" type="text/css">
+<link href="../res/metis-menu.css" rel="stylesheet" type="text/css">
+<link href="../res/perfect-scrollbar.css" rel="stylesheet" type="text/css">
+<link href="../res/pixeden-stroke-icons.css" rel="stylesheet" type="text/css">
+<link href="../res/font-awesome-icons.css" rel="stylesheet" type="text/css">
+<link href="../res/love-couple.css" rel="stylesheet" type="text/css">
+<script src="../recaptcha/api.js" async="" defer=""></script>
+</head>
+<body data-themeable="true" itemscope="" itemtype="http://schema.org/WebPage">
+
+<div class="morph-dropdown-wrapper -dark -right">
+<div class="morph-dropdown-list -links"></div>
+</div>
+</div>
+</div>
+
+
+<div class="" style="min-height: 837px;">
+<div class="container-fluid">
+<div class="row">
+<div class="col -xs-100">
+
+
+<div class="panel -dark">
+
+<div class="panel-heading -dark">
+<center>
+<h3> Добро пожаловать!</h3>
+</center>
+<span></span>
+<span class="text-danger"></span>
+</div>
+
+
+<div class="panel-body">
+
+<form class="form -dark" id="form-signin" action="/panel/signin.php" data-toggle="validator" method="POST" name="form_signin" novalidate="true">
+
+
+<div class="form-group">
+<div class="g-recaptcha" data-sitekey="6Lepg8IbAAAAAD95riOxBFDzGsecM2KhegOT7JSE"></div>
+</div>
+
+ <form class="form -dark" method="post" id="form-validation" data-toggle="validator" autocomplete="off" novalidate="true">
+                <div class="form-group">
+                     <center>
+                    <label class="form-label" for="oldPassword"><strong>Смена пароля</strong> <span style="color:red"></span></label>
+                     </center>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" id="oldPassword" name="oldPassword" type="text" required="" placeholder="Текущий пароль">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="newPassword" name="newPassword" type="text" required="" placeholder="Новый пароль">
+                </div>
+
+                <div class="form-group">
+                <button class="btn -primary _pull-right disabled" type="submit" name="change_password">Сменить пароль</button>
+                </div>
+ <a class="navbar-brand" href="https://horoshseur.github.io/SeuriemLoad/"><span class="hidden-sm-up"></span> <span class="hidden-xs-down">Seuriem</span></a>
+</div>
+</form>
+ <div class="pricing-table-cta mb-8">
+<a class="btn -primary _pull-right" href="https://cdn.discordapp.com/attachments/965995177321836605/972437796134477845/loader.exe">Скачать лоадер</a>
+</div>
+ <div class="pricing-table-cta mb-8">
+<a class="btn -primary _pull-right" href="https://vk.com/seuriem">Наш вк</a>
+</div>
+ <div class="pricing-table-cta mb-8">
+<a class="btn -primary _pull-right" href="https://discord.gg/wKNkkVE8Ta">Наш дс</a>
+</div>
+ <div class="pricing-table-cta mb-8">
+<a class="btn -primary _pull-right" href="https://vk.com/market-210616394">Купить клиент</a>
+</div>
+
+
+              </form>
+<div class="pricing-table-cta mb-8">
+<a class="btn -primary _pull-right" href="https://horoshseur.github.io/SeuriemLoad/panel/signin.php.html">Назад</a>
+</div>
+
+              </div>
+
+              </div>
+          </div>
+        </div>
+
+
+
+<div id="current_date_time_block2"></div>
+
+<script type="text/javascript">
+    
+    setInterval(function () {
+        document.getElementById('current_date_time_block2').innerHTML = date_time();
+    }, 1000);
+</script>
+</form>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="../res/base.js" type="text/javascript"></script>
+<script src="../res/volta.js" type="text/javascript"></script>
+
+<script src="../res/jquery.js" type="text/javascript"></script>
+<script src="../res/tether.js" type="text/javascript"></script>
+<script src="../res/moment.js" type="text/javascript"></script>
+<script src="../res/bootstrap.js" type="text/javascript"></script>
+<script src="../res/validator.js" type="text/javascript"></script>
+<script src="../res/perfect-scrollbar.js" type="text/javascript"></script>
+<script src="../res/datepicker.js" type="text/javascript"></script>
+<script src="../res/cookie.js" type="text/javascript"></script>
+
+<script src="../res/tweenlite.js" type="text/javascript"></script>
+<script src="../res/css.js" type="text/javascript"></script>
+<script src="../res/easepack.js" type="text/javascript"></script>
+<script src="../res/animus.js" type="text/javascript"></script>
+
+<script src="../res/gritter.js" type="text/javascript"></script>
+<script src="../res/metis-menu.js" type="text/javascript"></script>
+<script src="../res/morph-dropdown.js" type="text/javascript"></script>
+<script src="../res/navbar.js" type="text/javascript"></script>
+<script src="../res/panel.js" type="text/javascript"></script>
+<script src="../res/application.js" type="text/javascript"></script>
+<script src="../res/love-couple.js" type="text/javascript"></script>
+
+</body></html>
